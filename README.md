@@ -16,7 +16,7 @@ Create a webpage (using HTML, CSS, JavaScript and jQuery) where a user can answe
 ## Setup/Installation Requirements
 
 Place index.html file in webhost root
-Transfer CSS directory
+Transfer CSS and JS directories
 
 Note: this project leverages Bootstrap 4.3.1
 
