@@ -13,6 +13,19 @@ Create a webpage (using HTML, CSS, JavaScript and jQuery) where a user can answe
 * Don't forget your Git commits AND README.
 * Note: You are not required to take every possible combination of answers into account. Feel free to use very simple logic, or even ignore the user's responses for some questions.
 
+Your code will be reviewed for the following objectives:
+
+* All previous standards (last review's objectives) are in place (see below).
+* Site uses branching to return destination.
+* jQuery is used to show and hide destination after questions are answered and submitted.
+* Form gathers input from the user.
+* Variable names are descriptive of what they represent.
+* Web page is styled using Bootstrap and custom CSS.
+* Code has proper indentation and spacing.
+* Commits are made regularly with clear messages that finish the phrase "It will…".
+* Project README that includes: author name, program name, description,copyright and license information
+* link to project on GitHub Pages
+
 ## Setup/Installation Requirements
 
 Place index.html file in webhost root
