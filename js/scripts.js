@@ -48,7 +48,9 @@ $(document).ready(function(){
         $(".term").text(term);
         $(".program").text(program)
     
+        $(".body").hide();
         $("#output").show();
+
         event.preventDefault();
         
     });
