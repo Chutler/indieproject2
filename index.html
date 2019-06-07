@@ -10,139 +10,125 @@
   <body>
     <div class="container">
 
-      <div class="col-md"> <!--Master Column -->
+        <div class="col-md"> <!--Master Column -->
         <div class="row p-3 mb-2 bg-info text-white">
             <h1 class="display-4">Get Some of that Sweet VC Money!</h1>
         </div>
 
-        <div class="row"> <!-- Body Row -->
+            <div class="row"> <!-- Body Row -->
 
-            <div id="output"> <!-- Hidden Div -->
-            
-                <div class="alert alert-success col-12" role="alert">
-                    <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> you are on the path to success!</h4>
-                    <hr>
-                    <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program.</p> 
-                    <p>Entrance is limited to 15 motivated individuals in the <span class="term"></span> term.</p> 
-                    <p>You are required make an initial deposit of $1000.00 in seven days time to secure your spot. An email will be sent to <span class="email"></span> with an invoice for tuition.</p>
-                    <a href="index.html" class="btn btn-success btn-sm" role="button" aria-pressed="true"> Enroll Today!</a>
-                </div>
-                
-            </div> <!-- End Hidden Div -->
+                <div class="col-6">  <!-- Nested Left Column -->
+                    <div class="row p-3 mb-2 bg-light text-dark">
+                        <div class="instructions">
+                            <h3>Potential Students:</h3>
+                            <p><strong>Have you ever longed for a job in the tech sector?</strong> A chance to roll the dice and get rich selling your Pinterest clone? I hear you, <em>who doesn't want all of that and more!</em></p>
+                            <p>    
+                            <strong>Take the quick survey on the right</strong> and with the help of our team of data scientists we will determine <mark>your optimal path to wealth</mark> beyond your wildest dreams. Prepare for awkward dinners with Zuck, overpriced hoodies, and unfounded (<em>we hope</em>) discrimination law suits! The world is yours...as long as the highly-targeted advertising model isn't disrupted.</p>
+                            <img src="img/money.jpeg" alt="Nature" class="image">
+                        </div>  
+                    </div> 
+                </div>   <!-- End Left Column -->
 
-            <div class="col-6">  <!-- Nested Left Column -->
-                <div class="row p-3 mb-2 bg-light text-dark">
-                    <div class="instructions">
-                        <h3>Potential Students:</h3>
-                        <p><strong>Have you ever longed for a job in the tech sector?</strong> A chance to roll the dice and get rich selling your Pinterest clone? I hear you, <em>who doesn't want all of that and more!</em></p>
-                        <p>    
-                        <strong>Take the quick survey on the right</strong> and with the help of a team of data scientists we will determine <mark>your optimal path to wealth</mark> beyond your wildest dreams. Prepare for awkward dinners with Zuck, overpriced hoodies, and unfounded (we hope) discrimination law suits! The world is yours...as long as the highly-targeted advertising model isn't disrupted.</p>
-                        <img src="img/money.jpeg" alt="Nature" class="image">
-                    </div>  
-                </div> 
-            </div>   <!-- End Left Column -->
-
-            <div class="col-6"> <!-- Nested Right Column -->
-                    <div class="row p-3 mb-2">
-                        
-                        <form id="form">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="firstName" class="form-control" placeholder="First name">
+                <div class="col-6"> <!-- Nested Right Column -->
+                        <div class="row p-3 mb-2">
+                            
+                            <form id="form">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="firstName" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="lastName" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div> <!-- End Form Row 1 -->
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <input type="text" id="lastName" class="form-control" placeholder="Last name">
+                                <div class="form-group">
+                                    <label for="income">How much would you like to be earning?</label>
+                                    <select class="form-control" id="income">
+                                    <option value="1">Enough to still be poor</option>
+                                    <option value="2">Just gettin' by</option>
+                                    <option value="3">Middle-class, I guess</option>
+                                    <option value="4">Stupidly Wealthy</option>
+                                    </select>
                                 </div>
-                            </div> <!-- End Form Row 1 -->
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="income">How much would you like to be earning?</label>
-                                <select class="form-control" id="income">
-                                <option value="1">Enough to sill be poor</option>
-                                <option value="2">Just gettin' by</option>
-                                <option value="3">Content with my income</option>
-                                <option value="4">Stupidly Wealthy</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="math">Are you adept at mathematics?</label>
-                                <select class="form-control" id="math">
-                                <option value="1">Basic Arithmetic</option>
-                                <option value="2">High School Algebra</option>
-                                <option value="3">Introductory statistics</option>
-                                <option value="4">Graduate degree in Math</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="operatingSys">Your preferred operating system?</label>
-                                <select class="form-control" id="operatingSys">
-                                <option value="1">Windows</option>
-                                <option value="2">macOS</option>
-                                <option value="3">Linux</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="beverage">Beverage of choice?</label>
-                                <select class="form-control" id="beverage">
-                                <option value="1">Pabst</option>
-                                <option value="2">Craft IPA</option>
-                                <option value="3">Manhattan</option>
-                                <option value="4">Tanker of coffee</option>
-                                </select>
-                            </div>
-                            <label for="term">What term are you considering?</label>
-                            <div class="radio">
-                                <label>
-                                <input type="radio" name="term" value="winter" checked>
-                                Winter Term
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                <input type="radio" name="term" value="spring">
-                                Spring Term
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                <input type="radio" name="term" value="summer">
-                                Summer Term
-                                </label>
-                            </div>        
-                            <div class="radio">
-                                <label>
-                                <input type="radio" name="term" value="fall">
-                                Fall Term
-                                </label>
-                            </div>        
-                            <button type="submit" class="btn btn-info">Start Winning Today!</button>
-                        </form>
-                          
-                    </div>
+                                <div class="form-group">
+                                    <label for="math">Are you adept at mathematics?</label>
+                                    <select class="form-control" id="math">
+                                    <option value="1">Basic Arithmetic</option>
+                                    <option value="2">High School Algebra</option>
+                                    <option value="3">Introductory statistics</option>
+                                    <option value="4">Graduate degree in Math</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="operatingSys">Your preferred operating system?</label>
+                                    <select class="form-control" id="operatingSys">
+                                    <option value="1">Windows</option>
+                                    <option value="2">macOS</option>
+                                    <option value="3">Linux</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="beverage">Beverage of choice?</label>
+                                    <select class="form-control" id="beverage">
+                                    <option value="1">Pabst</option>
+                                    <option value="2">Craft IPA</option>
+                                    <option value="3">Manhattan</option>
+                                    <option value="4">Oil tanker of coffee</option>
+                                    </select>
+                                </div>
+                                <label for="term">What term are you considering?</label>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="term" value="winter" checked>
+                                    Winter Term
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="term" value="spring">
+                                    Spring Term
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="term" value="summer">
+                                    Summer Term
+                                    </label>
+                                </div>        
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="term" value="fall">
+                                    Fall Term
+                                    </label>
+                                </div>        
+                                <button type="submit" class="btn btn-info">Start Winning Today!</button>
+                            </form>
+                            
+                        </div>
+
                 </div>   <!-- End Right Column -->
 
-        </div> <!--End Body Row -->
-
-        <div class="row"> <!-- Results Row -->
-            <!-- <div id="output">
-            
-                <div class="alert alert-success" role="alert">
-                    <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> you are on the path to success!</h4>
-                    <hr>
-                    <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program.</p> 
-                    <p>Entrance is limited to 15 motivated individuals in the <span class="term"></span> term. You maust make an initial deposit of $1000.00 in seven days time.</p>
-                    <p>An email will be sent to <span class="email"></span> with an invoice for tuition.</p>
-                    <a href="#" class="btn btn-success btn-sm" role="button" aria-pressed="true"> $ Enroll Today! $</a>
-                </div>
                 
-            </div> -->
-        </div> <!-- End Results Row -->
-      </div>   <!--End Master Column --> 
+                <div id="output"> <!-- Hidden Div -->
+                
+                    <div class="alert alert-success col-12" role="alert">
+                        <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> you are on the path to success!</h4>
+                        <hr>
+                        <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program.</p> 
+                        <p>Entrance is limited to 15 motivated individuals in the <span class="term"></span> term.</p> 
+                        <p>An email will be sent to <span class="email"></span> with an invoice for tuition. You are required make an initial deposit of $1000.00 in seven days time to secure your spot.</p>
+                        <a href="index.html" class="btn btn-success btn-sm" role="button" aria-pressed="true"> Enroll Today!</a>
+                    </div>
+                    
+                </div> <!-- End Hidden Div -->
 
-      
-      
+            </div> <!--End Body Row -->
+
+        </div>   <!--End Master Column --> 
+
     </div>
   </body>
 </html>

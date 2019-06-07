@@ -1,5 +1,6 @@
+
 // Function for getting an average score from the select inputs
-var score = function(income, math, operatingSys,beverage) {
+var score = function(income, math, operatingSys, beverage) {
     return (income + math + operatingSys + beverage) / 4;
   };
 
@@ -22,13 +23,14 @@ $(document).ready(function(){
         // leverage the resulting score to determine the program
         var program;
         if (result <= 2) {
-            (program = "Jr. Dev Ops");
+            (program = "Jr. Web Development");
         } else if (result > 2 && result <= 3.25) {
-            (program = "Front-end Development");
+            (program = "Advanced Front-end Development");
         } else {
-            (program = "Machine Learning / AI");
+            (program = "Machine Learning and AI");
         }
 
+        // dead-weight for debugging fun
         // console.log("First Name: " + firstName);
         // console.log("Last Name: " + lastName);
         // console.log("Email: " + email);
