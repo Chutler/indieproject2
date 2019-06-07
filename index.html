@@ -17,6 +17,18 @@
 
         <div class="row"> <!-- Body Row -->
 
+            <div id="output"> <!-- Hidden Div -->
+            
+                <div class="alert alert-success col-12" role="alert">
+                    <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> you are on the path to success!</h4>
+                    <hr>
+                    <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program.</p> 
+                    <p>Entrance is limited to 15 motivated individuals in the <span class="term"></span> term. You are required make an initial deposit of $1000.00 in seven days time to secure your spot. An email will be sent to <span class="email"></span> with an invoice for tuition.</p>
+                    <a href="index.html" class="btn btn-success btn-sm" role="button" aria-pressed="true"> $ Enroll Today! $</a>
+                </div>
+                
+            </div> <!-- End Hidden Div -->
+
             <div class="col-6">  <!-- Nested Left Column -->
                 <div class="row p-3 mb-2 bg-light text-dark">
                     <div class="instructions">
@@ -24,6 +36,7 @@
                         <p><strong>Have you ever longed for a job in the tech sector?</strong> A chance to roll the dice and get rich selling your Pinterest clone? I hear you, <em>who doesn't want all of that and more!</em></p>
                         <p>    
                         <strong>Take the quick survey on the right</strong> and with the help of a team of data scientists we will determine <mark>your optimal path to wealth</mark> beyond your wildest dreams. Prepare for awkward dinners with Zuck, overpriced hoodies, and unfounded (we hope) discrimination law suits! The world is yours...as long as the highly-targeted advertising model isn't disrupted.</p>
+                        <img src="img/money.jpeg" alt="Nature" class="image">
                     </div>  
                 </div> 
             </div>   <!-- End Left Column -->
@@ -53,39 +66,57 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="income">Are you adept at Mathmatics?</label>
-                                <select class="form-control" id="income">
-                                <option value="1">Basic arithmetic.</option>
-                                <option value="2">High School Algebra.</option>
-                                <option value="3">I know some statistics.</option>
-                                <option value="4">I have a graduate degree in Math.</option>
+                                <label for="math">Are you adept at mathematics?</label>
+                                <select class="form-control" id="math">
+                                <option value="1">Basic arithmetic</option>
+                                <option value="2">High School Algebra</option>
+                                <option value="3">I know some statistics</option>
+                                <option value="4">I have a graduate degree in Math</option>
                                 </select>
                             </div>
+                            <div class="form-group">
+                                <label for="operatingSys">Your preferred operating system?</label>
+                                <select class="form-control" id="operatingSys">
+                                <option value="1">Windows</option>
+                                <option value="2">macOS</option>
+                                <option value="3">Linux</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="beverage">Beverage of choice?</label>
+                                <select class="form-control" id="beverage">
+                                <option value="1">Pabst</option>
+                                <option value="2">Craft IPA</option>
+                                <option value="3">Manhattan</option>
+                                <option value="4">Tanker of coffee</option>
+                                </select>
+                            </div>
+                            <label for="term">What term are you considering?</label>
                             <div class="radio">
                                 <label>
-                                <input type="radio" name="operator" value="add" checked>
-                                add
+                                <input type="radio" name="term" value="winter" checked>
+                                Winter Term
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                <input type="radio" name="operator" value="subtract">
-                                subtract
+                                <input type="radio" name="term" value="spring">
+                                Spring Term
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                <input type="radio" name="operator" value="multiply">
-                                multiply
+                                <input type="radio" name="term" value="summer">
+                                Summer Term
                                 </label>
                             </div>        
                             <div class="radio">
                                 <label>
-                                <input type="radio" name="operator" value="divide">
-                                divide
+                                <input type="radio" name="term" value="fall">
+                                Fall Term
                                 </label>
                             </div>        
-                            <button type="submit" class="btn btn-info">Submit.</button>
+                            <button type="submit" class="btn btn-info">Start Winning Today!</button>
                         </form>
                           
                     </div>
@@ -94,17 +125,18 @@
         </div> <!--End Body Row -->
 
         <div class="row"> <!-- Results Row -->
-            <div id="output">
+            <!-- <div id="output">
             
-                <div class="alert alert-warning" role="alert">
-                    <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> is on their way to success!</h4>
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading"><span class="firstName"></span> <span class="lastName"></span> you are on the path to success!</h4>
                     <hr>
-                    <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program. Entrance is exclusive and limited to those who are motivated and make an initial depost before Monday.</p>
-                    <!-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p> -->
+                    <p><span class="firstName"></span>, your path to riches lies in our <span class="program"></span> program.</p> 
+                    <p>Entrance is limited to 15 motivated individuals in the <span class="term"></span> term. You maust make an initial deposit of $1000.00 in seven days time.</p>
+                    <p>An email will be sent to <span class="email"></span> with an invoice for tuition.</p>
                     <a href="#" class="btn btn-success btn-sm" role="button" aria-pressed="true"> $ Enroll Today! $</a>
                 </div>
                 
-            </div>
+            </div> -->
         </div> <!-- End Results Row -->
       </div>   <!--End Master Column --> 
 

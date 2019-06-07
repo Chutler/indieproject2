@@ -1,3 +1,13 @@
 #output {
     display: none;
 }
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.term, .email, .program {
+    text-transform: uppercase
+}
