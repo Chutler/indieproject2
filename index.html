@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indie Project Two</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md"> <!--Master Column -->
+        <div class="row p-3 mb-2 bg-info text-center text-white">
+            <h1>Want to learn how to get rich?</h1>
+        </div>
+        <div class="row">
+            <div class="col-6">  <!-- Nested Left Column -->
+                <div class="row p-3 mb-2 bg-light text-dark">
+                    <div class="instructions">
+                        <h3>Potential Students:</h3>
+                        <p><strong>Have you ever longed for a job in the tech sector?</strong> A chance to roll the dice and get rich selling your Pinterest clone? I hear you, <em>who doesn't want all of that and more!</em></p>
+                        <p>    
+                        <strong>Take the quick survey on the right</strong> and with the help of a team of data scientists we will determine <mark>your optimal path to wealth</mark> beyond your wildest dreams. Prepare for awkward dinners with Zuck, overpriced hoodies, and unfounded (we hope) discrimination law suits! The world is yours...as long as the highly-targeted advertising model isn't disrupted.</p>
+                    </div>  
+                </div> 
+            </div>   <!-- End Left Column -->
+
+            <div class="col-6"> <!-- Nested Right Column -->
+                    <div class="row p-3 mb-2">
+                        <div class="instructions">
+                            <form id="form">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="firstName" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="lastName" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div> <!-- End Form Row 1 -->
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="operator" value="add" checked>
+                                    add
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="operator" value="subtract">
+                                    subtract
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="operator" value="multiply">
+                                    multiply
+                                    </label>
+                                </div>        
+                                <div class="radio">
+                                    <label>
+                                    <input type="radio" name="operator" value="divide">
+                                    divide
+                                    </label>
+                                </div>        
+                                <button type="submit" class="btn btn-secondary">Submit.</button>
+                            </form>
+                        </div>  
+                    </div>
+                </div>   <!-- End Right Column -->
+        </div> <!--End Body Row -->
+        <div class="row"> <!-- Results Row -->
+            <div id="output">
+
+            </div>
+        </div> <!-- End Results Row -->
+      </div>   <!--End Master Column --> 
+
+      
+      
+    </div>
+  </body>
+</html>
