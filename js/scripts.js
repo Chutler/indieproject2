@@ -29,18 +29,6 @@ $(document).ready(function(){
         } else {
             (program = "Machine Learning and AI");
         }
-
-        // dead-weight for debugging fun
-        // console.log("First Name: " + firstName);
-        // console.log("Last Name: " + lastName);
-        // console.log("Email: " + email);
-        // console.log("Income: " + income);
-        // console.log("Math Level: " + math);
-        // console.log("OS: " + operatingSys);
-        // console.log("Beverage: " + beverage);
-        // console.log("Term: " + term);
-        // console.log("Score: " + score);
-        // console.log("Result: " + result);
     
         $(".firstName").text(firstName);
         $(".lastName").text(lastName);
