@@ -35,7 +35,7 @@ Note: this project leverages Bootstrap 4.3.1
 
 ## Link to site on GitHub Pages
 
-(_Insert Link_)
+[Link to site on GitHub Pages](https://chutler.github.io/indieproject2/ "IndieProject2")
 
 ## Known Bugs
 
