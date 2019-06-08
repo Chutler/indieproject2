@@ -36,8 +36,9 @@ $(document).ready(function(){
         $(".term").text(term);
         $(".program").text(program)
     
-        $(".body").hide();
-        $("#output").show();
+        // Changed hide and show to fadeOut and fadeIn for kicks
+        $(".body").fadeOut();
+        $("#output").fadeIn("slow");
 
         event.preventDefault();
         
